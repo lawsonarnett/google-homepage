@@ -1,7 +1,17 @@
-#logo{
+.wrapper {
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  text-align: center;
 
 }
 
-#search{
-  width: 33%;
+.search {
+  grid-column: 2 / 2;
+  grid-row: 3 / 2;
+
+}
+
+input [type="text"]{
+  width: 100%;
 }
